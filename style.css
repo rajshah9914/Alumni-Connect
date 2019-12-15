@@ -1,0 +1,98 @@
+body { margin: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 14px; }
+/* PAGE TOP */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #C0E73D; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#pageTop {
+	/* background:url("../images/headerSliver.jpg") repeat-x; */
+	height: 90px;
+	background-color: rgb(61, 135, 231);
+}
+#pageTop > #pageTopWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 90px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float: left;
+	margin-left: -70px;
+	height: 90px;
+	width: 108px;
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+	float: left;
+	height: 90px;
+	width: 892px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+	margin-top: 8px;
+	padding: 4px;
+	text-align:right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+	color: #CCC;
+	text-decoration: none;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a:hover {
+	color: #C0E73D;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+	margin-top: 2px;
+	padding: 4px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+	display: block;
+	float: left;
+	color:#CCC;
+	text-decoration: none;
+	margin: 0px 16px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a:hover {
+	color: #C0E73D;
+}
+/* PAGE MIDDLE */
+#pageMiddle{
+	/* background:url("../images/cover.png"); */
+	width: 100%;
+	margin: 0px auto;
+	height: 900px;
+	/* height: 0%; */
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+/* PAGE BOTTOM */
+#pageBottom{
+	background: #666;
+	padding: 24px;
+	font-size: 12px;
+	color: #CCC;
+	text-align: center;
+}
+
+#pageMiddle {
+	padding: 10px;
+}
